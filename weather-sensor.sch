@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -17551,6 +17551,121 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="microbuilder">
+<packages>
+<package name="FIDUCIAL-1X2.5">
+<circle x="0" y="0" radius="1.1" width="1.2" layer="29"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="39"/>
+<circle x="0" y="0" radius="1.1" width="1.2" layer="41"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="-0.508" y="-1.016" size="0.4064" layer="25">1mm</text>
+</package>
+<package name="PASS-ROUND">
+<description>&lt;b&gt;FIDUCIAL MARKER&lt;/b&gt;&lt;p&gt;
+round, layers 1 + 16 + 21 + 39 + 49</description>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="49"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="1"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="16"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.54" width="0" layer="30"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="0" y1="0.508" x2="0.508" y2="0" width="1.4224" layer="49" curve="-90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0" y2="-0.508" width="1.4224" layer="49" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.1524" layer="49"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="49"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="49"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="1"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="1"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="1"/>
+<wire x1="-2.54" y1="0" x2="-1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="16"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.524" width="0.1524" layer="16"/>
+<wire x1="2.54" y1="0" x2="1.524" y2="0" width="0.1524" layer="16"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="16" curve="-90" cap="flat"/>
+<wire x1="0.0254" y1="0.5842" x2="0.5842" y2="0.0254" width="1.1176" layer="1" curve="-90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="16" curve="90" cap="flat"/>
+<wire x1="-0.5842" y1="-0.0254" x2="-0.0254" y2="-0.5842" width="1.1176" layer="1" curve="90" cap="flat"/>
+</package>
+<package name="FIDUCIAL_0.5MM">
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="29" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="29" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="29" curve="-90"/>
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="41" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="41" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="41" curve="-90"/>
+<wire x1="-0.475" y1="0" x2="0" y2="0.475" width="0.25" layer="39" curve="-90"/>
+<wire x1="0" y1="0.475" x2="0.475" y2="-0.025" width="0.25" layer="39" curve="-90"/>
+<wire x1="0.475" y1="-0.025" x2="0" y2="-0.475" width="0.25" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.475" x2="-0.475" y2="0" width="0.25" layer="39" curve="-90"/>
+<smd name="1" x="0" y="0" dx="0.5" dy="0.5" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL_1MM">
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="29" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="29" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="41" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="41" curve="-90"/>
+<wire x1="-0.75" y1="0" x2="0" y2="0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="0.75" x2="0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<wire x1="0.75" y1="0" x2="0" y2="-0.75" width="0.5" layer="39" curve="-90"/>
+<wire x1="0" y1="-0.75" x2="-0.75" y2="0" width="0.5" layer="39" curve="-90"/>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>&lt;b&gt;Fiducial Alignment Points&lt;/b&gt;
+&lt;p&gt;Various fiducial points for machine vision alignment.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2.5" package="FIDUCIAL-1X2.5">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="ROUND" package="PASS-ROUND">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0.5MM" package="FIDUCIAL_0.5MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_1MM" package="FIDUCIAL_1MM">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17584,17 +17699,17 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".1uf"/>
 <part name="ADC" library="Conservify" library_urn="urn:adsk.eagle:library:11839183" deviceset="ADC081C021" device="SOT-DDC" package3d_urn="urn:adsk.eagle:package:11899194/1"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".1u"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="4.7u"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="470p"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value=".1uf"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="4.7K"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1uf"/>
 <part name="INVERTER" library="Conservify" library_urn="urn:adsk.eagle:library:11839183" deviceset="74HC14" device="" package3d_urn="urn:adsk.eagle:package:12729521/1"/>
 <part name="U6" library="Conservify" library_urn="urn:adsk.eagle:library:11839183" deviceset="PCA9615" device="" package3d_urn="urn:adsk.eagle:package:12823946/1"/>
 <part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="330"/>
@@ -17604,6 +17719,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="300"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2"/>
+<part name="FID1" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID2" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="1X2.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -17796,6 +17915,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="202.565" y="28.956" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="207.391" y="28.956" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="FID1" gate="G$1" x="-35.56" y="-78.74" smashed="yes"/>
+<instance part="FID2" gate="G$1" x="-25.4" y="-78.74" smashed="yes"/>
+<instance part="FID3" gate="G$1" x="-17.78" y="-78.74" smashed="yes"/>
+<instance part="FID4" gate="G$1" x="-7.62" y="-78.74" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -17908,15 +18031,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <segment>
 <pinref part="J1" gate="G$1" pin="A2"/>
 <wire x1="154.94" y1="-53.34" x2="147.32" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="A3"/>
-<wire x1="154.94" y1="-55.88" x2="154.94" y2="-53.34" width="0.1524" layer="91"/>
-<junction x="154.94" y="-53.34"/>
 <label x="147.32" y="-53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="B3"/>
-<wire x1="180.34" y1="-55.88" x2="190.5" y2="-55.88" width="0.1524" layer="91"/>
-<label x="185.42" y="-55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ADC" gate="G$1" pin="VCC"/>
@@ -17972,6 +18087,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="200.66" y="35.56" size="1.778" layer="95" rot="R90"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="IO1" gate="G$1" pin="A2"/>
+<wire x1="-40.64" y1="139.7" x2="-48.26" y2="139.7" width="0.1524" layer="91"/>
+<label x="-48.26" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -18010,10 +18130,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-43.18" y1="134.62" x2="-43.18" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="IO1" gate="G$1" pin="A1"/>
 <wire x1="-43.18" y1="137.16" x2="-40.64" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="IO1" gate="G$1" pin="A2"/>
-<wire x1="-40.64" y1="139.7" x2="-43.18" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="139.7" x2="-43.18" y2="137.16" width="0.1524" layer="91"/>
-<junction x="-43.18" y="137.16"/>
 <wire x1="-43.18" y1="134.62" x2="-43.18" y2="129.54" width="0.1524" layer="91"/>
 <junction x="-43.18" y="134.62"/>
 <pinref part="IO1" gate="G$1" pin="GND"/>
@@ -18179,6 +18295,16 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="33.02" x2="208.28" y2="27.94" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="A3"/>
+<wire x1="154.94" y1="-55.88" x2="147.32" y2="-55.88" width="0.1524" layer="91"/>
+<label x="147.32" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="B3"/>
+<wire x1="180.34" y1="-55.88" x2="190.5" y2="-55.88" width="0.1524" layer="91"/>
+<label x="185.42" y="-55.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -18292,31 +18418,34 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-7.62" y1="116.84" x2="-15.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="2OE" class="0">
 <segment>
 <pinref part="COUNT2" gate="G$1" pin="!OUTPUT_ENABLE"/>
 <wire x1="58.42" y1="111.76" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="91.44" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="IO3" gate="G$1" pin="G6"/>
 <wire x1="73.66" y1="111.76" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="45.72" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="2RCLK" class="0">
 <segment>
 <pinref part="COUNT2" gate="G$1" pin="RCLK_UPDATE_OUTPUT"/>
 <wire x1="60.96" y1="114.3" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="88.9" x2="38.1" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IO3" gate="G$1" pin="G5"/>
 <wire x1="60.96" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="45.72" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="2CCLR" class="0">
 <segment>
 <pinref part="COUNT2" gate="G$1" pin="!CCLR-CLEAR"/>
 <wire x1="63.5" y1="116.84" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IO3" gate="G$1" pin="G4"/>
 <wire x1="73.66" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<label x="45.72" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -18451,14 +18580,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <segment>
 <pinref part="U5" gate="G$1" pin="IN"/>
 <wire x1="152.4" y1="-2.54" x2="139.7" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="EN"/>
-<wire x1="152.4" y1="-5.08" x2="152.4" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="152.4" y="-2.54"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="P3"/>
-<wire x1="208.28" y1="-55.88" x2="215.9" y2="-55.88" width="0.1524" layer="91"/>
-<label x="213.36" y="-55.88" size="1.778" layer="95" align="bottom-right"/>
+<label x="142.24" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P4"/>
@@ -18635,6 +18757,18 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="J2" gate="G$1" pin="P8"/>
 <wire x1="208.28" y1="-68.58" x2="220.98" y2="-68.58" width="0.1524" layer="91"/>
 <label x="218.44" y="-68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ENABLE" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="P3"/>
+<wire x1="208.28" y1="-55.88" x2="215.9" y2="-55.88" width="0.1524" layer="91"/>
+<label x="213.36" y="-55.88" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="EN"/>
+<wire x1="152.4" y1="-5.08" x2="139.7" y2="-5.08" width="0.1524" layer="91"/>
+<label x="142.24" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
